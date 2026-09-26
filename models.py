@@ -27,7 +27,7 @@ class OrderCreate(SQLModel):
     items: str
 
 
-class OrderUpdateStatus(SQLModel):
+class OrderUpdate(SQLModel):
     status: Optional[OrderStatus] = None
     delivery_address: Optional[str] = None
 
